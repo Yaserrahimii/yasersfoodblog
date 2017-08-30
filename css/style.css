@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  background-color: #black;
+  font-family: bold;
+  font-size: 50px;
+  background-image: url(../img/bkg.jpg);
+  background-repeat: repeat-y;
+  background-position: 200px 100px;
+  background-attachment: scroll;
+  background-size: 20px;
+}
+
+header{
+
+  background-color: #purple;
+  padding : 25px;
+}
+.active,
+nav a:hover{
+  color:#000;
+  text-decoration: none;
+
+}
+nav a{
+  color: black;
+  font-weight: : bold;
+  font-size: 100px;
+  width: 100%;
+
+}
+article,
+nav {
+  float:center;
+  width: 500%;
+  max-width: 1175px;
+  margin-right: auto;
+  margin-right: auto;
+
+}
+
+nav h1 {
+  float: center;
+  margin:0;
+  font-size: 150px;
+}
+
+
+
+
+
+}
+nav{
+  letter-spacing:5px ;
+  text-decoration: bold;
+  padding:25px;
+  boarder-right: 10px;
+
+}
+nav ul{
+  font-size: 100px;
+  list-style: none;
+  float:left;
+  margin:0;
+  padding:0;
+
+}
+nav ul li{
+  float: right;
+  margin:5px;
+}
+
+article{
+border: 5px ridge red;
+min-height: 100vh;
+}
+
+article h1 {
+  margin:25px;
+  font-size:30px;
+  border: 5px ridge red;
+  border-radius: 50px;
+
+}
+section{
+  margin:50px 25px 25px;
+  border-bottom: 2px solid #ccc;
+
+}
+section{
+  margin: 25px;
+  min-hieght:200px;
+  margin:10px 20px 10px 20px;
+}
+.clear{
+  clear:left;
+
+}
+footer{
+  margin: 20px;
+  text-align: center;
+
+}
+h3 {
+font-size: 25px
+}
+
+p {
+font-size: " "
+}
+
+.row {
+margin:25px;
+padding: 100%;
+width: 100%;
+}
+.row:before{
+display: table;
+content-" ";
+
+}
+.row:after{
+display:block;
+content:" ";
+clear:both;
+
+
+}
+
+.col{
+float:left;
+margin: 0 2.5%;
+
+}
+
+.col-3{
+
+
+width: 28.3334%
+float:left;
+
+}
+.col img{
+display:block;
+width:100%;
+
+}
+.col-2{
+width: 45%;
+
+
+}
+.col-4{
+width:20%
+}
